@@ -42,7 +42,6 @@ npm run
 
 To build and start the project, run the following command in your terminal:
 
-```bash
 npm run build:start
 
 

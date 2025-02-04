@@ -26,7 +26,8 @@ export const isPrime = (num: number): boolean => {
   };
   
   export const getDigitSum = (num: number): number => {
-    return String(num)
+    return Math.abs(num)
+      .toString()
       .split("")
       .reduce((acc, digit) => acc + Number(digit), 0);
   };
